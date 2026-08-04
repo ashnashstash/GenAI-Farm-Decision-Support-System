@@ -4,16 +4,16 @@
 AI-powered agriculture assistant for farmers.
 
 ## Tech Stack
-Frontend:
+Frontend :
 React.js, Tailwind CSS
 
-Backend:
+Backend :
 Node.js, Express.js
 
-AI:
+AI :
 Python, FastAPI, Gemini API
 
-Database:
+Database :
 MongoDB Atlas
 
 ## Features
