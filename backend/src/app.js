@@ -1,5 +1,7 @@
 const express = require('express');
 
+const farmRoutes = require("./routes/farmRoutes");
+
 const app = express();
 
 app.use(express.json());
@@ -16,5 +18,7 @@ app.get("/api/health", (req, res) => {
         message: "Backend is running"
     });
 });
+
+app.use("/api/farms", farmRoutes);
 
 module.exports = app;
